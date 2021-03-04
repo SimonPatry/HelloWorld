@@ -1,0 +1,111 @@
+*{
+    margin:0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Oswald', sans-serif;*/
+    color:#333;
+    line-height: 1.6em;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    max-width:900px;
+    width:90%;
+    margin:auto;
+}
+header{
+    text-align:center;
+}
+nav{
+    justify-content:space-around;
+    background-color: #00BEE8;
+}
+nav a{
+    color:white;
+    line-height: 40px;
+}
+h1{
+    color:#00BEE8;
+    border-bottom:1px dotted #00BEE8;
+    text-align:center;
+    margin:auto;
+    width:90%;
+    padding:15px 0px;
+    margin-top:30px;
+}
+h2{
+    line-height: 60px;
+}
+section {
+    padding:20px 0px;
+}
+#travel img, #travel p{
+    width:100%;
+}
+#travel a{
+    color:white;
+    background-color:#0096D0;
+    border-radius:5px;
+    padding:7px;
+    line-height: 50px;
+}
+hr{
+    line-height: 30px;
+}
+#about {
+    background-image: url("../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    padding: 30px 0px;
+}
+#about h2, #about p{
+    width:48%;
+    padding:10px 10px;
+    background: white;
+}
+.texte1 p{
+    margin-bottom:10px;
+    margin-left:10px;
+}
+.texte2 p{
+    margin-bottom:10px;
+}
+.img1{
+    margin-left:30;
+}
+.display{
+    display:flex;
+    padding:20px 0px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.blue a{
+    color:#00BEE8;
+}
+footer{
+    background: #00BEE8;
+    text-align:center;
+    padding-top:20px;
+}
+footer img{
+    width:3%;
+}
+.facebook{
+    color:#4267B2;
+}
+.twitter{
+    color:#1DA1F2;
+}
+.pinterest{
+    color:#BD081C;
+}
+.instagram{
+    color:#8948C1;
+}
