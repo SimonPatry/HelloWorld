@@ -5,6 +5,7 @@ body{
     font-family: 'Lato', sans-serif;
     /*font-family: 'Oswald', sans-serif;*/
     color:#333;
+    box-sizing:border-box;
     line-height: 1.6em;
 }
 a{
@@ -19,7 +20,6 @@ header{
     text-align:center;
 }
 nav{
-    justify-content:space-around;
     background-color: #00BEE8;
 }
 nav a{
@@ -27,22 +27,32 @@ nav a{
     line-height: 40px;
 }
 h1{
-    color:#00BEE8;
-    border-bottom:1px dotted #00BEE8;
+    font-size:3rem;
+    color:#40CCEA;
+    word-spacing:10px;
+    border-bottom:1px dotted #40CCEA;
     text-align:center;
     margin:auto;
     width:90%;
-    padding:15px 0px;
+    padding-bottom:20px;
     margin-top:30px;
 }
 h2{
-    line-height: 60px;
+    font-size:1.6rem;
+    line-height:50px;
 }
-section {
+h3{
+    font-size:1.4rem;
+    line-height: 70px;
+}
+section{
     padding:20px 0px;
 }
-#travel img, #travel p{
-    width:100%;
+#travel img, .text{
+    width:49%;
+}
+#travel p{
+    padding-bottom:15px;
 }
 #travel a{
     color:white;
@@ -51,34 +61,108 @@ section {
     padding:7px;
     line-height: 50px;
 }
-hr{
-    line-height: 30px;
+#destination h2{
+    padding-bottom:20px;
 }
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+td, th{
+    padding:10px;
+    border:1px solid grey;
+}
+tr:nth-child(even){
+    background-color: #EEEEEE;
+}
+
 #about {
     background-image: url("../img/fond.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:100%;
-    padding: 30px 0px;
+    padding: 40px 0px;
 }
-#about h2, #about p{
-    width:48%;
-    padding:10px 10px;
+#about h2{
+    width:47%;
     background: white;
+    padding-top:30px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
 }
-.texte1 p{
-    margin-bottom:10px;
-    margin-left:10px;
+#about p{
+    width:47%;
+    background: white;
+    padding:15px 15px;
+    padding-bottom:15px;
 }
-.texte2 p{
-    margin-bottom:10px;
+address{
+    margin-bottom:20px;
 }
-.img1{
-    margin-left:30;
+
+form {
+    padding:30px 0px;
+    background-image: url(../img/dotted_earth.jpg);
+    background-position:center;
+    background-size:90%;
 }
 .display{
+    margin:auto;
     display:flex;
-    padding:20px 0px;
+}
+input, textarea{
+    width:100%;
+    border-radius: 5px;
+}
+textarea{
+    height:150px;
+}
+input{
+    height:30px;
+}
+.button{
+    text-align:center;
+    padding-top:20px;
+}
+button{
+    background-color: #0096D0;
+    padding:10px;
+    color:white;
+    border-radius:7px;
+}
+.information,
+.message{
+    width:49%;
+}
+.flex_information{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 20px;
+}
+.data{
+    width:100%;
+    padding:10px;
+}
+
+.display1{
+    display:flex;
+    justify-content:space-around;
+    padding-left:33%;
+    padding-right:33%;
+}
+.display2{
+    display:flex;
+    justify-content:space-between;
+}
+hr{
+    margin:20px 0px;
+}
+.italic{
+    font-style: italic;
 }
 .left{
     float:left;
@@ -89,23 +173,32 @@ hr{
 .blue a{
     color:#00BEE8;
 }
+
+.facebook{
+    font-size:1.5em;
+    color:#4267B2;
+}
+.twitter{
+    font-size:1.5em;
+    color:#1DA1F2;
+}
+.pinterest{
+    font-size:1.5em;
+    color:#BD081C;
+}
+.instagram{
+    font-size:1.5em;
+    color:#8948C1;
+}
 footer{
     background: #00BEE8;
     text-align:center;
     padding-top:20px;
+    color:white;
+}
+footer a{
+    color:white;
 }
 footer img{
-    width:3%;
-}
-.facebook{
-    color:#4267B2;
-}
-.twitter{
-    color:#1DA1F2;
-}
-.pinterest{
-    color:#BD081C;
-}
-.instagram{
-    color:#8948C1;
+    height:60px;
 }
